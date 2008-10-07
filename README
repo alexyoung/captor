@@ -1,0 +1,10 @@
+h2. About Captor
+
+Captor uses Shoes to create a GUI for Capistrano Capfiles.
+
+* This is a prototype proof of concept
+* I'm currently using drb to access Capfiles because Shoes is having trouble with net/ssh
+
+h2. Notes and Design
+
+"Read my notes here":http://pad.helicoid.net/document/public/f5181afb
