@@ -7,8 +7,20 @@ class CapfileServer
   def initialize
   end
   
-  def task_names(file_name)
-    Capfile.new(file_name).task_names
+  def file_name=(file_name)
+    @capfile = Capfile.new(file_name)
+  end
+  
+  def task_names
+    @capfile.task_names
+  end
+  
+  def description(task_name)
+    @capfile.description task_name
+  end
+  
+  def execute(task_name)
+    @capfile.execute task_name
   end
 end
 

@@ -8,3 +8,14 @@ Captor uses Shoes to create a GUI for Capistrano Capfiles.
 h2. Notes and Design
 
 "Read my notes here":http://pad.helicoid.net/document/public/f5181afb
+
+h2. Usage
+
+Make sure you run <code>cap_serve.rb</code>.  This won't be needed in the future, it's just until I can get Shoes running with Capistrano.
+
+Define a list of projects in captor.rb (obviously this will work through the user interface in the future.)
+
+<code>
+ruby cap_serve.rb
+open captor.rb -a /Applications/Shoes.app
+</code>
