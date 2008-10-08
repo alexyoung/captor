@@ -1,4 +1,6 @@
 class Capfile
+  attr_reader :file_name
+  
   def initialize(file_name)
     DRb.start_service
     @capfile = DRbObject.new(nil, 'druby://localhost:9000')

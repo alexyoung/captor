@@ -1,1 +1,1 @@
-class Project < Struct.new(:capfile, :name, :stack); end
+class Project < Struct.new(:name, :capfile); end
